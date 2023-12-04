@@ -1,0 +1,5 @@
+def sum_distance(from_, to):
+    if from_ > to:
+        from_, to = to, from_
+    return sum(range(from_, to+1))
+print(sum_distance(5, 1))
